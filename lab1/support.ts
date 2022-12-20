@@ -1,16 +1,10 @@
-export enum GeneroPersona {
-    'H' = 'H',
-    'M' = 'M'
+export const generoPersona = ['H', 'M'];
+export const tiposSanguineos: Array<string> = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'];
+export enum EdadConduccion {
+    'Etiopia' = 14,
+    'Australia' = 16,
+    'Estados Unidos' = 16,
+    'Reino Unido' = 17
 }
 
-export enum TiposSanguineos {
-    'Desconocido' = 'Desconocido',
-    'A+' = 'A+',
-    'A-' = 'A-',
-    'B+' = 'B+',
-    'B-' = 'B-',
-    'AB+' = 'AB+',
-    'AB-' = 'AB-',
-    'O+' = 'O+',
-    'O-' = 'O-'
-}
+export const EDAD_MINIMA_CONDUCION = 18;
