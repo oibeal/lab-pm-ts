@@ -11,7 +11,10 @@ class Persona {
   private sexo: string;
   private nacionalidad: string;
 
-  /** @constructor */
+  /** 
+   * @constructor 
+   * @throws {Error} - Cuando el constructor no esta vácio pero tampoco se han especificado todos los parametros
+  */
   public constructor(
     idPersona?: number,
     nombreCompleto?: string,
