@@ -16,10 +16,13 @@ Ahora se pide incluir más funcionalidades en la clase **Persona**. En particula
 - Implementar el método *puedeDonarA*(), devolviéndole un booleano. Este método, tomando una persona como parámetro y siendo nuestra persona (this), decidirá si nuestra persona puede donar sangre a esa otra persona según la tabla que aparece más abajo. Si es posible devolverá true, si no false.
 - Implementar el método *getInicialNombre*() para devolver la inicial del nombre de nuestra persona. Haz lo mismo con el apellido getInicio del apellido *getInicialApellido*().
 En el atributo NombreCompleto no estarán los apellidos asociados, pero sí los puede tener:
+
+
 |Nombre Completo|Inicial nombre|Inicial Apellido|
 |:----|:----|:----|
 |Juan Martín|J|M|
 |Juan Pedro Martín|J|M|
 |Juan Pedro Martín García|J|G|
+
 
 ![Cuadro de compatibilidad entre distintos grupos sanguineos](cuadro-compatibilidades-grupos-sangre.PNG)
