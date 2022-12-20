@@ -9,7 +9,7 @@ Un registro no tiene funcionalidad en sí mismo, mientras que una clase sí. Una
 # Tarea 2: métodos
 
 Ahora se pide incluir más funcionalidades en la clase **Persona**. En particular:
-- Nuevo atributo 4: idPersona (total), sexo (caracteres, 'E' o 'G'), nacionalidad (String) y tipo de sangre (String).
+- Nuevo atributo 4: idPersona (total), sexo (caracteres, 'H' o 'M'), nacionalidad (String) y tipo de sangre (String).
 - Crea un nuevo constructor. Tendrá como parámetro de entrada los valores que recibirán los cinco atributos.
 - Implementar el método *tieneMismoId*() devolviendo un booleano. Si el valor de este booleano es true si el idPersona de otra persona que pasamos a este método es igual que el idPersona de nuestra persona (this), de lo contrario devolverá false.
 - *puedeConducir*() implementar el método devolviendo un booleano. Este método devolverá *true* cuando tenga el suficiente para guiar a las personas, de lo contrario *false*. Siempre suponiendo que las edades de conducción en diferentes países son diferentes, por ejemplo en Etiopía será con 14 años, en Australia y Estados Unidos con 16 años, en el Reino Unido con 17 años, y en el resto del mundo con 18 años.
