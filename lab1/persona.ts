@@ -1,15 +1,14 @@
-// @ts-ignore
-import { EdadConduccion, EDAD_MINIMA_CONDUCION } from "./support.ts";
+import { edadConduccion, EDAD_MINIMA_CONDUCION } from "./support.ts";
 
 class Persona {
   // atributos
-  private idPersona: number;
-  private nombreCompleto: string;
+  private idPersona!: number;
+  private nombreCompleto!: string;
   /** Un número entero no negativo */
-  private edad: number;
-  private tipoSanguineo: string;
-  private sexo: string;
-  private nacionalidad: string;
+  private edad!: number;
+  private tipoSanguineo!: string;
+  private sexo!: string;
+  private nacionalidad!: string;
 
   /** 
    * @constructor 
@@ -49,9 +48,12 @@ class Persona {
   } // end constructor
 
   private defaultInit(): void {
+    this.idPersona = 0;
     this.nombreCompleto = "Desconocido";
     this.edad = 0;
     this.tipoSanguineo = '0';
+    this.sexo = 'Desconocido';
+    this.nacionalidad = 'Desconocido';
   }
 
   private init(
@@ -108,7 +110,7 @@ class Persona {
 
   public puedeConducir(): boolean {
     // si el país no está en la lista su edad mínima es 18
-    const edadMinima = EdadConduccion[this.nacionalidad] ?? EDAD_MINIMA_CONDUCION;
+    const edadMinima: number = edadConduccion.get(this.nacionalidad) ?? EDAD_MINIMA_CONDUCION;
     return this.edad >= edadMinima;
   }
 }
