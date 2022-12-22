@@ -14,7 +14,7 @@ Ahora se pide incluir más funcionalidades en la clase **Persona**. En particula
 - Implementar el método *tieneMismoId*() devolviendo un booleano. Si el valor de este booleano es true si el idPersona de otra persona que pasamos a este método es igual que el idPersona de nuestra persona (this), de lo contrario devolverá false.
 - *puedeConducir*() implementar el método devolviendo un booleano. Este método devolverá *true* cuando tenga el suficiente para guiar a las personas, de lo contrario *false*. Siempre suponiendo que las edades de conducción en diferentes países son diferentes, por ejemplo en Etiopía será con 14 años, en Australia y Estados Unidos con 16 años, en el Reino Unido con 17 años, y en el resto del mundo con 18 años.
 - Implementar el método *puedeDonarA*(), devolviéndole un booleano. Este método, tomando una persona como parámetro y siendo nuestra persona (this), decidirá si nuestra persona puede donar sangre a esa otra persona según la tabla que aparece más abajo. Si es posible devolverá true, si no false.
-- Implementar el método *getInicialNombre*() para devolver la inicial del nombre de nuestra persona. Haz lo mismo con el apellido getInicio del apellido *getInicialApellido*().
+- Implementar el método *getInicialNombre*() para devolver la inicial del nombre de nuestra persona. Haz lo mismo con el apellido *getInicialApellido*().
 En el atributo NombreCompleto no estarán los apellidos asociados, pero sí los puede tener:
 
 
